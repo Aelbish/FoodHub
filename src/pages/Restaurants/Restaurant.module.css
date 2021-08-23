@@ -1,0 +1,124 @@
+.divRes {
+  position: relative;
+  top: 6rem;
+  margin: auto;
+}
+
+.restaurant {
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.bannerImage {
+  width: 90%;
+  height: 90%;
+  border-radius: 10px 10px 10px 10px;
+  object-fit: cover;
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+
+.restaurant:hover {
+  cursor: pointer;
+  border-bottom: 1px solid rgb(0, 117, 53);
+}
+
+.restaurantLogo {
+  border-radius: 14px; /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+}
+
+.name {
+  font-size: 2rem;
+  margin-top: 0;
+  text-align: center;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  margin-right: 0.5rem;
+  color: #af1010;
+}
+
+.loading {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: 80px;
+  font-size: 1.5rem;
+}
+
+.error {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(94, 0, 12);
+  text-align: center;
+  max-width: 45rem;
+  width: 90%;
+  margin: auto;
+  position: relative;
+  top: 10rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 14px;
+  padding: 1rem;
+  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+}
+
+.restaurants {
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  animation: restaurants-appear 1s ease-out forwards;
+}
+
+.restaurants ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 3rem;
+  background-color: #af1010;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.nav span:hover {
+  cursor: pointer;
+  background-color: #4d1601;
+  border: none;
+  justify-content: space-around;
+  border-radius: 30px;
+}
+
+.navComp {
+  padding: 8px;
+}
+
+@keyframes restaurants-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,29 @@
+.meal {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.meal:hover {
+  border-bottom: 1px solid rgb(0, 117, 53);
+}
+
+.meal h3 {
+  margin: 0 0 0.25rem 0;
+  text-align: left;
+}
+
+.description {
+  font-style: italic;
+  text-align: left;
+}
+
+.price {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  color: #669200;
+  font-size: 1.25rem;
+  text-align: left;
+}

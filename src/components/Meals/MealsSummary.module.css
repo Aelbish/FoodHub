@@ -1,0 +1,32 @@
+.summary {
+  text-align: center;
+  max-width: 45rem;
+  width: 90%;
+  margin: auto;
+  margin-top: -10rem;
+  position: relative;
+  top: -10vh;
+  background-color: rgba(175, 16, 16, 0.8);
+  color: white;
+  border-radius: 14px;
+  padding: 1rem;
+  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+}
+
+.summary h2 {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  margin-right: 0.5rem;
+  position: relative;
+  top: 5px;
+}
+
+.link {
+  color: rgb(0, 0, 0);
+}

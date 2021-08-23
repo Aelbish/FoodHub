@@ -1,0 +1,170 @@
+.form {
+  width: 90%;
+  max-width: 21em;
+  padding: 1rem;
+  border-radius: 12px;
+  position: relative;
+  top: -90vh;
+  background-color: rgba(43, 43, 43, 0.8);
+  margin: 3rem auto;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.form-control input {
+  display: block;
+  color: black;
+}
+.form-control label {
+  display: block;
+  color: #fff;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input,
+.form-control select {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.form-control input:focus {
+  outline: none;
+  border-color: #42af03;
+  background-color: #dddddd;
+}
+
+.control-group {
+  display: flex;
+  column-gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.control-group .form-control {
+  min-width: 15rem;
+  flex: 1;
+}
+
+.page {
+  width: 90%;
+  max-width: 21em;
+  padding: 1rem;
+  border-radius: 12px;
+  position: relative;
+  top: -95vh;
+  text-align: center;
+  color: rgb(75, 75, 75);
+  text-shadow:
+  /* White glow */ 0 0 7px rgb(255, 255, 255),
+    0 0 10px rgb(255, 255, 255), 0 0 21px rgb(250, 250, 250);
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 3rem auto;
+}
+
+button {
+  font: inherit;
+  background-color: #669200;
+  color: white;
+  border: 1px solid #669200;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover,
+button:active {
+  background-color: #273800;
+  border-color: #273800;
+}
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+  background-color: rgb(167, 167, 167);
+  border-color: rgb(167, 167, 167);
+  cursor: not-allowed;
+}
+
+.form-actions {
+  text-align: right;
+}
+
+.form-actions button {
+  margin-left: 1rem;
+}
+
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.invalid input:focus {
+  border-color: #669200;
+  background-color: #fbe8d2;
+}
+
+.error-text {
+  color: #b40e0e;
+}
+
+.mes {
+  color: #ebebeb;
+  text-align: center;
+}
+
+.success {
+  color: #669200;
+}
+
+.loading {
+  color: #ccc;
+}
+
+.main-image {
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.main-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.zero {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+@media (min-width: 360px) and (max-width: 361px) {
+  .form-control input,
+  .form-control select {
+    width: 19rem;
+  }
+  .form {
+    top: -100vh;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+  .form-control input,
+  .form-control select {
+    width: 17rem;
+  }
+  .form {
+    top: -100vh;
+  }
+}

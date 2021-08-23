@@ -1,0 +1,107 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 5rem;
+  background-color: #af1010;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.icons {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.headers {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.headers:hover {
+  cursor: pointer;
+  background-color: #4d1601;
+  justify-content: space-around;
+  border-radius: 30px;
+}
+
+.activeHeader {
+  cursor: pointer;
+  border-bottom: 4px solid #4d1601;
+  border-radius: 3px;
+  padding-top: 4px;
+}
+
+.main-image {
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.main-image img {
+  width: 110%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.logo {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  padding-left: 10px;
+}
+
+.head {
+  margin: 0 1rem;
+}
+
+@media (max-width: 500px) {
+  .icons {
+    margin: auto;
+    font-size: 0.9rem;
+  }
+  .headers {
+    margin: auto;
+    font-size: 0.9rem;
+  }
+  .header {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 540px) {
+  .icons {
+    margin: auto;
+    font-size: 0.6rem;
+  }
+  .header {
+    font-size: 0.7rem;
+  }
+  .customh1 {
+    padding-left: 10px;
+  }
+  .logo {
+    width: 25px;
+    height: 25px;
+    top: 28px;
+  }
+}
