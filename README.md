@@ -7,7 +7,8 @@ This is a React application. This is a food order app that enables users to sear
 ![5](https://user-images.githubusercontent.com/49761123/130396435-0cb93268-1c48-4583-bea0-fb9464d86f91.jpg)
 
 
-Languages/ Frameworks used: JavaScript, React. Technologies used: REST API, Netlify.
+Languages/ Frameworks used: JavaScript, React. 
+Technologies used: REST API, Netlify.
 
 # Getting Started with Create React App
 
