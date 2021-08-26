@@ -1,3 +1,15 @@
+# [FoodHub](https://l20-foodhub.netlify.app/)
+This is a React application. This is a food order app that enables users to search restaurants based on their favorite foods or their location. Users can also add reviews and place orders from the restaurants. 
+![1](https://user-images.githubusercontent.com/49761123/130396420-4f343fed-c423-433c-a5f1-8d5b3584dc95.jpg)
+![2](https://user-images.githubusercontent.com/49761123/130396424-acb84878-bd60-4bd9-bed1-dfb1c0245272.jpg)
+![3](https://user-images.githubusercontent.com/49761123/130396428-7321b695-96c9-4791-8410-8a20417b9cfe.jpg)
+![4](https://user-images.githubusercontent.com/49761123/130396432-55050d32-6b2c-43b0-8378-8cf5f775778d.jpg)
+![5](https://user-images.githubusercontent.com/49761123/130396435-0cb93268-1c48-4583-bea0-fb9464d86f91.jpg)
+
+
+Languages/ Frameworks used: JavaScript, React. 
+Technologies used: REST API, Netlify.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
