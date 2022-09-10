@@ -43,7 +43,7 @@ const RestaurantReview = (props) => {
   const reviewList = restaurantReviews.map((review) => (
     <li key={review._id} className={classes.review}>
       <h3>
-        <FaUser className={classes.userLogo} /> {review.userId.username}
+        <FaUser className={classes.userLogo} /> {review.userId?.username}
       </h3>
       <span className={classes.ratingAvg}>
         {((review.food + review.service + review.environment) / 3).toFixed(1)}
